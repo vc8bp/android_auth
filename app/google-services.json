@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "719333963410",
+    "project_id": "auth-ff36d",
+    "storage_bucket": "auth-ff36d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719333963410:android:d03baafaf484c75fa1584b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719333963410-fhnd8upa1onsrublsncntplk1fqpmuno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfoND-K1dRR9PP-Le8o2GjvybgxT6XAIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719333963410-fhnd8upa1onsrublsncntplk1fqpmuno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
