@@ -6,4 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="Services"
+            android:textColor="#212121"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/textView4"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/spa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Span"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:paddingVertical="24dp"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/facial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facial"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:paddingVertical="24dp"
+                android:background="#FFEB3B" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/hairstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Style"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:paddingVertical="24dp"
+                android:background="@color/purple_200" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/makeup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makeup"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:paddingVertical="24dp"
+                android:background="#0FAC16" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
