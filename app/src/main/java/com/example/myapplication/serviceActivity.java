@@ -3,6 +3,7 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -62,7 +63,9 @@ public class serviceActivity extends AppCompatActivity {
         }
 
         bookNowButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(this,Booking_activity.class);
+            intent.putExtra("service", serviceNameString);
+            startActivity(intent);
         });
     }
 }
